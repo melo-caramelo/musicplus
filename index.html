@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <title>music+</title>
+  <link rel="icon" href="/styles/images/icons8-add-song-100.png">
+</head>
+<body>
+  <header>
+    <div class="headercontent">
+      <a href="/index.html"> <img src="/styles/images/icones/logo_transparent.png" alt="" class="logo"></a>
+    </div>
+    <div class="menus">
+      <a class="menu-item" href="/pages/about.html">sobre nós</a>
+      <a class="menu-item" href="/pages/group.html">equipe</a>
+      <a class="menu-item" href="/pages/contact.html">contatos</a>
+    </div>
+
+    <div class="menu">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
+
+    <div class="midia">
+      <a href=""><img src="/styles/images/icons8-facebook-novo-512.png" alt="" class="social"></a>
+      <a href=""><img src="/styles/images/icons8-instagram-512.png" alt="" class="social"></a>
+      <a href=""><img src="/styles/images/icons8-twitter-512.png" alt="" class="social"></a>
+    </div>
+  </header>
+  
+  <section>
+    <div class="container">
+        
+        <div class="title-box">
+          <h1 class="title">como você está se sentindo?</h1>
+        </div>
+  
+        <div class="div-select">
+          <select name="unidade" id="unidade" onChange="AbrirSecao(this.value)">
+              <option class="option">Selecione um sentimento</option>
+              <option class="option" value="/musicpages/tristeza/index.html">tristeza</option>
+              <option class="option" value="/musicpages/solidão/index.html">solidão</option>
+              <option class="option" value="/musicpages/stress/index.html">stress</option>
+          </select>
+        </div>
+      
+      </div>
+
+    </div>
+
+    <footer>
+        <p>copyright ©2022 All rights reserverd | this website is made by <a href="" class="space">SPACELANDERS</a></p>
+    </footer>  
+
+  </section>
+
+  <script>
+    function AbrirSecao(secao){
+                window.open(""+secao+"", "_parent");
+            }
+  </script>
+
+  <script src="main.js"></script>
+</body>
+</html>
