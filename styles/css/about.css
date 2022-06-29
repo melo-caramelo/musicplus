@@ -13,10 +13,13 @@
   src: url(/styles/fonts/Back\ to\ school.otf);
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'media';
-  overflow-x: hidden;
-  overflow-y: hidden;
+  position: relative;
 }
 
 * {
