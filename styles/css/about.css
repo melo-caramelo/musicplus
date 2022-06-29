@@ -214,7 +214,6 @@ header {
     height: calc(100vh - 75px);
     width: 100%;
     flex-direction: column;
-    position: fixed;
   }
 
   .container .left-side {
