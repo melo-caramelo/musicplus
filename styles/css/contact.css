@@ -49,21 +49,6 @@ header {
   padding-left: 30px;
 }
 
-.menu {
-  display: none;
-  cursor: pointer;
-
-}
-
-.menu div {
-  width: 32px;
-  height: 2px;
-  background: #fff;
-  margin: 8px;
-  transition: 0.3s;
-}
-
-
 .menus {
   margin-right: 100px;
   display: flex;
@@ -248,30 +233,13 @@ header {
     padding-top: 100px;
   }
 
+  .logo {
+    position: relative;
+    margin-left: -50px;
+  }
+
   .midia {
     display: none;
-  }
-
-  .menu {
-    display: block;
-  }
-
-  .menus {
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 50vw;
-    height: 92vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-  }
-
-  .menus a {
-    margin-left: 0;
-    opacity: 0;
   }
 
   .map {
@@ -313,6 +281,21 @@ header {
     display: block;
   }
 
+  .menu-item {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+  .menu-selected {
+    font-family: 'media';
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #dddddd;
+    cursor: default;
+    border-bottom: #18bb10 3px solid;
+  }
+
 }
 
 @media (max-width: 350px) {
@@ -320,5 +303,10 @@ header {
     background-color: #18bb10;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .menu-item {
+    font-size: 14px;
+    padding-left: 12px;
   }
 }

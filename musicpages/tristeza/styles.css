@@ -133,7 +133,6 @@ header {
 }
 
 .title {
-  width: max-content;
   text-align: center;
   font-size: 70px;
   color: #386355;
@@ -209,7 +208,7 @@ button:active:before {
 
   .logo {
     position: relative;
-    margin-left: -22px;
+    margin-left: -20px;
   }
 
   .container {
@@ -218,10 +217,6 @@ button:active:before {
 
   .midia {
     display: none;
-  }
-
-  .menu {
-    display: block;
   }
 
   .title {
@@ -250,24 +245,6 @@ button:active:before {
     text-align: center;
   }
 
-  .menus {
-    position: absolute;
-    top: 8vh;
-    right: 0;
-    width: 50vw;
-    height: 92vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in;
-  }
-
-  .menus a {
-    margin-left: 0;
-    opacity: 0;
-  }
-
 }
 
 .nav-list.active {
@@ -286,10 +263,20 @@ button:active:before {
   .image {
     width: 350px;
   }
+
+  .menu-item {
+    font-size: 15px;
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 350px) {
   .image {
     width: 270px;
+  }
+
+  .menu-item {
+    font-size: 14px;
+    padding-left: 12px;
   }
 }

@@ -13,14 +13,17 @@
   src: url(/styles/fonts/Back\ to\ school.otf);
 }
 
-html, body {
+body {
   overflow-x: hidden;
   overflow-y: hidden;
+  font-family: 'media';
+
 }
 
-body {
-  font-family: 'media';
-  position: relative;
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+
 }
 
 * {
@@ -282,5 +285,11 @@ header {
 
   .image {
     width: 350px;
+  }
+}
+
+@media (max-width: 280px) {
+  .right-side {
+    background-position-y: -30px;
   }
 }
