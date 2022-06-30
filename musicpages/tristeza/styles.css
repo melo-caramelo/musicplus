@@ -209,6 +209,7 @@ button:active:before {
   .logo {
     position: relative;
     margin-left: -20px;
+    width: 140px;
   }
 
   .container {

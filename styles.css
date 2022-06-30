@@ -185,7 +185,7 @@ footer p {
 
   .logo {
     position: relative;
-    margin-left: -22px;
+    margin-left: -40px;
   }
 
   .container {
@@ -249,8 +249,13 @@ footer p {
 
 @media (max-width: 350px) {
 
+  section {
+    background-image: url(/styles/images/mobilewpp.png);
+    background-position-y: 50px;
+  }
+
   .title {
-    margin-top: -100px;
+    margin-top: -40px;
   }
 
   .div-select select {

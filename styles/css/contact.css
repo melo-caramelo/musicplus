@@ -32,7 +32,7 @@ header {
   width: 100%;
   overflow: hidden;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 10px;
   height: 75px;
 }
@@ -45,7 +45,7 @@ header {
 .logo {
   padding-bottom: 10px;
   display: flex;
-  width: 150px;
+  width: 120px;
   padding-left: 30px;
 }
 
@@ -58,16 +58,16 @@ header {
   font-family: 'media';
   padding-left: 80px;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 24px;
   color: white;
   transition: all 0.3s ease 0s;
 }
 
 .menu-selected {
   font-family: 'media';
-  margin-left: 50px;
+  margin-left: 80px;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 24px;
   color: #dddddd;
   cursor: default;
   border-bottom: #18bb10 3px solid;
@@ -229,6 +229,40 @@ header {
     overflow-x: hidden;
   }
 
+  .headercontent {
+    display: block;
+  }
+
+  .logo {
+    position: relative;
+    margin-left: -50px;
+  }
+
+  header {
+    background-color: #0f0f0f;
+    justify-content: space-around;
+  }
+
+  .logo {
+    position: relative;
+    margin-left: -50px;
+  }
+
+  .menu-item {
+    font-size: 15px;
+    padding-left: 40px;
+  }
+
+  .menu-selected {
+    font-family: 'media';
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #dddddd;
+    cursor: default;
+    border-bottom: #18bb10 3px solid;
+  }
+
   .container {
     padding-top: 100px;
   }
@@ -250,10 +284,10 @@ header {
     display: block;
   }
 
-}
+  .title {
+    margin-top: -60px;
+  }
 
-.nav-list.active {
-  transform: translateX(0);
 }
 
 @media (max-width: 550px) {
@@ -265,8 +299,9 @@ header {
     font-size: 15px;
   }
 
-  .image {
-    width: 350px;
+  .logo {
+    position: relative;
+    margin-left: 40px;
   }
 
   .map {
@@ -294,10 +329,6 @@ header {
     color: #dddddd;
     cursor: default;
     border-bottom: #18bb10 3px solid;
-  }
-
-  .title {
-    margin-top: -100px;
   }
 
 }

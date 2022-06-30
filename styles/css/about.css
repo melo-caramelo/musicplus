@@ -46,7 +46,7 @@ header {
 }
 
 .headercontent {
-  display: none;
+  display: flex;
   align-items: center;
 }
 
@@ -236,6 +236,21 @@ header {
     padding-left: 0px;
   }
 
+  .menu-item {
+    font-size: 15px;
+    padding-left: 40px;
+  }
+
+  .menu-selected {
+    font-family: 'media';
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #dddddd;
+    cursor: default;
+    border-bottom: #660066 3px solid;
+  }
+
 }
 
 @media (max-width: 550px) {
@@ -253,7 +268,7 @@ header {
 
   .menu-item {
     font-size: 15px;
-    padding-left: 20px;
+    padding-left: 40px;
   }
 
   .menu-selected {
@@ -273,8 +288,12 @@ header {
     background-position-y: -30px;
   }
 
+  .menu-selected {
+    font-size: 14px;
+  }
+
   .menu-item {
     font-size: 14px;
-    padding-left: 10px;
+    padding-left: 20px;
   }
 }
