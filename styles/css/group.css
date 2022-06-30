@@ -413,6 +413,11 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
     margin-right: auto;
 
   }
+
+  .equipe {
+    margin-top: -100px;
+  }
+
 }
 
 @media (max-width: 350px) {
@@ -425,9 +430,6 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
     padding-left: 12px;
   }
 
-  .equipe {
-    margin-top: -100px;
-  }
 }
 
 
