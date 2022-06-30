@@ -296,6 +296,10 @@ header {
     border-bottom: #18bb10 3px solid;
   }
 
+  .title {
+    margin-top: -100px;
+  }
+
 }
 
 @media (max-width: 350px) {
@@ -308,9 +312,5 @@ header {
   .menu-item {
     font-size: 14px;
     padding-left: 12px;
-  }
-
-  .title {
-    margin-top: -100px;
   }
 }
