@@ -249,6 +249,10 @@ footer p {
 
 @media (max-width: 350px) {
 
+  .title {
+    margin-top: -100px;
+  }
+
   .div-select select {
     width: 260px;
     font-size: 16px;
@@ -256,6 +260,10 @@ footer p {
 
   .menu-item {
     font-size: 14px;
-    padding-left: 12px;
+    padding-left: 20px;
+  }
+
+  footer {
+    margin-bottom: 50px;
   }
 }

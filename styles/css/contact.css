@@ -309,4 +309,8 @@ header {
     font-size: 14px;
     padding-left: 12px;
   }
+
+  .title {
+    margin-top: -100px;
+  }
 }
