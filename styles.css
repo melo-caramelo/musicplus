@@ -179,6 +179,12 @@ footer p {
 }
 
 @media (max-width: 999px) {
+  
+    section {
+    background-image: url(/styles/images/mobilewpp.png);
+    background-position-y: 50px;
+  }
+  
   body {
     overflow-x: hidden;
   }
