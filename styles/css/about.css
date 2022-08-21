@@ -183,12 +183,10 @@ header {
   }
 
   .container {
-    height: calc(100vh - 75px);
-    width: 100%;
     flex-direction: column;
   }
 
-  .container .left-side {
+  .left-side {
     flex: none;
     padding: 20px 30px;
     justify-content: center;
@@ -196,44 +194,48 @@ header {
   }
 
   .right-side {
-    flex: 1;
-    background-position-y: -60px;
-    height: 100%;
+    background-position: center bottom;
+  }
+
+  .left-content {
+    padding-top: 100px;
+    padding-left: 0px;
   }
 
   .title {
-    font-size: 50px;
-    font-weight: bold;
-    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
   }
 
   .description {
-    font-family: 'modern';
-    font-weight: bold;
-    font-size: 16px;
-    margin-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
   }
 
   .contact {
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: min-content;
     font-family: 'modern';
   }
 
   .contact a {
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
     color: white;
     font-size: 16px;
     font-weight: bold;
   }
 
-  .midia {
-    padding-right: 30px;
+  #number {
+    margin-left: 20px;
   }
 
-  .social {
-    height: 20px;
-    justify-content: flex-end;
-    transition: all 0.3s ease 0s;
-    padding-left: 0px;
+  .iconerede {
+    display: none;
   }
 
   .menu-item {
@@ -281,6 +283,14 @@ header {
     border-bottom: #660066 3px solid;
   }
 
+  .iconerede {
+    display: none;
+  }
+
+  .right-side {
+    background-position-y: -50px;
+  }
+
 }
 
 @media (max-width: 280px) {
@@ -295,5 +305,9 @@ header {
   .menu-item {
     font-size: 14px;
     padding-left: 20px;
+  }
+
+  .iconerede {
+    margin-left: 25px;
   }
 }
